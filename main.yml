@@ -6,10 +6,5 @@
   
   tasks:
   - name: Deploy War File
-    maven_artifact:
-      group_id: bharath.org
-      artifact_id: application
-      repository_url: 'http://54.153.77.32:8080/nexus/'
-      username: admin
-      password: admin
-      dest: ~
+    command: ls -al
+    register: p
