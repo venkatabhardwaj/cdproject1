@@ -1,1 +1,1 @@
-172.31.5.115 ansible_ssh_hosts=172.31.5.115 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem
+172.31.5.115 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem
