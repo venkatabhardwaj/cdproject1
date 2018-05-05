@@ -2,7 +2,7 @@
 - hosts: all
   tasks:
   - name: Deploy War File
-  - maven_artifact:
+    maven_artifact:
       group_id: bharath.org
       artifact_id: application
       repository_url: 'http://54.153.77.32:8080/nexus/'
