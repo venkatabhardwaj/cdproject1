@@ -1,0 +1,1 @@
+172.31.9.246 ansible_ssh_hosts=172.31.9.246 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem
