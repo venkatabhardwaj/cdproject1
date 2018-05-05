@@ -1,1 +1,1 @@
-172.31.5.115 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem ansible_python_interpreter=/usr/bin/python
+172.31.5.115 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem ansible_python_interpreter=/usr/bin/python2
