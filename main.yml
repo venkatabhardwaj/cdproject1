@@ -2,4 +2,10 @@
 - hosts: all
   tasks:
   - name: Deploy War File
-    maven_artifact: group_id=bharath.org artifact_id=application extension=war repository_url=http://ec2-54-153-77-32.us-west-1.compute.amazonaws.com:8080/nexus/content/repositories/snapshots/ username=admin password=admin123  dest=~/CD/
+  - maven_artifact:
+      group_id: bharath.org
+      artifact_id: application
+      repository_url: 'http://54.153.77.32:8080/nexus/'
+      username: admin
+      password: admin
+      dest: ~
