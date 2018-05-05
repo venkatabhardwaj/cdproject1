@@ -1,8 +1,8 @@
 ---
 - hosts: 172.31.5.115
-  user: centos
-  become: true
-  connection: ssh
+  remote_user: centos
+  become: yes
+  become_method: sudo
   
   tasks:
   - name: Deploy War File
