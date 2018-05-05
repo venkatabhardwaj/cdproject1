@@ -1,5 +1,9 @@
 ---
 - hosts: 172.31.5.115
+  user: centos
+  become: true
+  connection: ssh
+  
   tasks:
   - name: Deploy War File
     maven_artifact:
