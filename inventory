@@ -1,1 +1,4 @@
-172.31.5.115 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem ansible_ssh_port=22 ansible_python_interpreter=/usr/bin/python2
+server1 ansible_ssh_host=172.31.9.246 ansible_ssh_user=centos ansible_ssh_private_key_file=/home/centos/Task.pem ansible_ssh_port=22 ansible_python_interpreter=/usr/bin/python2
+
+[tomcat]
+server1
