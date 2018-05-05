@@ -7,7 +7,7 @@
   tasks: 
   - maven_artifact:
        group_id=bharath.org
-       artifact_id=applications
+       artifact_id=application
        extension=war
        repository_url=http://54.153.77.32:8080/nexus/content/repositories/snapshots/
        dest=/usr/local/tomcat7/webapps/web-app.war
